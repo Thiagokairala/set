@@ -7,6 +7,9 @@
 	<BODY>
 		<div class="container" style="margin-top: 1%;">
 	<!-- Static navbar -->
+	<div id="logo" style="margin-left: 10%;">
+		<img src="img/logo.png" class="logo">
+	</div>
 	<div class="navbar navbar-default" role="navigation"
 		style="width: 70%; float: right;">
 		<div class="container-fluid">
