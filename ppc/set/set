@@ -1,0 +1,10 @@
+O Set é um container que abriga elementos únicos e ordenados, sendo todos constantes após terem sido inseridos, porem todos podem ser removidos a qualquer momento.
+
+	template<
+		class Key,
+		class Compare = std::less<Key>,
+		class Allocator = std::allocator<Key>
+	> class set;
+
+A ordenação é feita segundo o objeto de comparacao Compare, que por default eh do menor para o maior.
+Sets geralmente são implementados com arvores vermelha e preta.
